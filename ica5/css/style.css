@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  background: #ccc;
+  background: #ccc url('../img/top-image.png') center top fixed no-repeat;
 }
 
 article {
