@@ -9,6 +9,8 @@ html {
 body {
   margin: 0;
   background: #ccc url('../img/top-image.png') center top fixed no-repeat;
+  background: #ccc url('../img/bottom-image.png') center bottom fixed no-repeat;
+  
 }
 
 article {
