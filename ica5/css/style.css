@@ -27,7 +27,7 @@ address {
 
 h1 {
   background-image: url(../img/logo.png);
-  filter: drop-shadow(4px 4px 4px black);
+  /*filter: drop-shadow(4px 4px 4px black);*/
   box-shadow: 4px 4px 4px black;
   border-radius: 50%;
   position: absolute;
