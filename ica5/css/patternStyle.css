@@ -1,12 +1,46 @@
 .box{
-    width: 100px;
+    width: 500px;
     height: 100px;
     border: 1px solid #5C6D70;
+    padding: 50px;
     }
+
+.linkDefault{
+    color: #E88873;
+    padding-top: 10px;
+}
+.linkHover{
+    color: #E0AC9D;
+    padding-top: 10px;
+}
+.linkClicked{
+    color: #A37774;
+    padding-top: 10px;
+}
+
+.bDefault{
+    color: #E88873;
+    padding-top: 10px;
+}
+.bHover{
+    color: #E0AC9D;
+    padding-top: 10px;
+}
+.bClicked{
+    color: #A37774;
+    padding-top: 10px;
+}
+
+body{
+    padding-top: 10px;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
         display: inline;
         color: #5C6D70;
+        padding-left: 5px;
+        padding-right: 25px;
       } 
       
 a:link {
