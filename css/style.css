@@ -4,6 +4,8 @@
     }
     body{
         background-color:rgb(247, 203, 209);
+        display: flex;
+        flex-flow: row wrap;
     }
     h3{
         color:hsl(351, 86%, 67%); 
@@ -31,33 +33,39 @@
   }
 
 
-html{
-    background-color: rgb(247, 203, 209);
-}
-body{
-    background-color:rgb(247, 203, 209);
-}
-h3{
-    color:hsl(351, 86%, 67%); 
-    font-style: italic;
-}
+@media only screen and (min-width: 1900px) {
+    html{
+        background-color: rgb(247, 203, 209);
+    }
+    body{
+        background-color:rgb(247, 203, 209);
+        
+    }
+    
+    h3{
+        color:hsl(351, 86%, 67%); 
+        font-style: italic;
+    }
+    
+    h2{
+        text-align:center;
+    }
+    
+    h1{
+        color:hsl(351, 86%, 67%);
+        text-align:center;
+    }
+    
+    a{
+        text-align: center;
+    }
+    
+    img{
+        width: 20%;
+        height: 20%;
+        text-align: center;
+    }
+    
+    
 
-h2{
-    text-align:center;
 }
-
-h1{
-    color:hsl(351, 86%, 67%);
-    text-align:center;
-}
-
-a{
-    text-align: center;
-}
-
-img{
-    width: 20%;
-    height: 20%;
-    text-align: center;
-}
-
