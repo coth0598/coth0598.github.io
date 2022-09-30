@@ -1,3 +1,26 @@
+body{
+    background-color:rgb(247, 203, 209);
+}
+h3{
+    color:hsl(351, 86%, 67%); 
+    font-style: italic;
+}
+
+h2{
+    text-align:center;
+}
+
 h1{
-    color: blueviolet;
+    color:hsl(351, 86%, 67%);
+    text-align:center;
+}
+
+a{
+    text-align: center;
+}
+
+img{
+    width:300;
+    height:300;
+    text-align: center;
 }
