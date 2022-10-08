@@ -1,7 +1,7 @@
 .box{
     width: 500px;
     height: 100px;
-    border: 1px solid #5C6D70;
+    border: 1px solid pink
     padding: 50px;
     }
 
@@ -10,24 +10,24 @@
     padding-top: 10px;
 }
 .linkHover{
-    color: #E0AC9D;
+    color: pink;
     padding-top: 10px;
 }
 .linkClicked{
-    color: #A37774;
+    color: pink;
     padding-top: 10px;
 }
 
 .bDefault{
-    color: #E88873;
+    color: #fcedf4;
     padding-top: 10px;
 }
 .bHover{
-    color: #E0AC9D;
+    color: pink;
     padding-top: 10px;
 }
 .bClicked{
-    color: #A37774;
+    color: pink;
     padding-top: 10px;
 }
 
@@ -38,21 +38,21 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
         display: inline;
-        color: #5C6D70;
+        color: #333;
         padding-left: 5px;
         padding-right: 25px;
       } 
       
 a:link {
-        color: #E88873;
+        color: #333;
       }
       
 a:visited {
-        color: #A37774;
+        color: pink;
       }
       
 a:hover {
-        color: #E0AC9D;
+        color: pink;
       }
       
       
