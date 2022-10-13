@@ -9,8 +9,12 @@ const btn=document.getElementById("btn");
 
 btn.addEventListener("click", function(){
    alert("You clicked me");
-})
+}
+)
 
+function myFunc(){
+    alert("You Clicked me");
+ }
 
 
 let body = document.querySelector('body');
