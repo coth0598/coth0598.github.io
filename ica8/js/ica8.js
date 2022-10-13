@@ -12,11 +12,6 @@ btn.addEventListener("click", function(){
 }
 )
 
-function myFunc(){
-    alert("You Clicked me");
- }
-
-
 let body = document.querySelector('body');
 
 function changeColor(){
@@ -24,9 +19,11 @@ function changeColor(){
     
 }
 
+let text = document.getElementById("txt");
+
 function changeText(){
 
-    body.style.fontSize = "40px";
+    text.style.fontSize = "400px";
 
 }
 
