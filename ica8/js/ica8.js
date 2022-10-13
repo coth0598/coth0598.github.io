@@ -24,14 +24,9 @@ function changeColor(){
     
 }
 
+function changeText(){
 
-function changeText(text){
-
-    text.innerHTML = "Hello!!";
+    body.style.fontSize = "40px";
 
 }
 
-function changeFont(){
-
-    document.getElementById('demo').style.fontSize='35px';
-}
