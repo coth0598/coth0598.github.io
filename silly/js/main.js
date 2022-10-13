@@ -14,7 +14,7 @@ storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When th
 
 var insertX = new Array();
 insertX[0] = "Willy the Goblin";
-insertX[1] = "Big Daddy";
+insertX[1] = "my big fat ah";
 insertX[2] = "Father Christmas";
 
 var insertY = new Array();
