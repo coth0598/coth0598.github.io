@@ -5,7 +5,7 @@ function giveAlert(){
     alert("this is an alert");
 }
 
-function clickButton(){
+function changeText(){
 
     document.getElementById("demo").innerHTML = "Hello!!";
 
