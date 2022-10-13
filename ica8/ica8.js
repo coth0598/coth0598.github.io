@@ -13,9 +13,9 @@ function changeColor(){
 }
 
 
-function changeText(){
+function changeText(text){
 
-    document.getElementById("demo").innerHTML = "Hello!!";
+    text.innerHTML = "Hello!!";
 
 }
 
