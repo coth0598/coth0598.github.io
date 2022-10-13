@@ -7,7 +7,7 @@ function giveAlert(){
 
 function clickButton(){
 
-    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    document.getElementById("demo").innerHTML = "Hello!!";
 
 }
 
