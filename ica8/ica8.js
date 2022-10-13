@@ -5,6 +5,14 @@
     //alert("this is an alert");
 //}
 
+const btn=document.getElementById("btn");
+
+btn.addEventListener("click", function(){
+   alert("You clicked me");
+})
+
+
+
 let body = document.querySelector('body');
 
 function changeColor(){
