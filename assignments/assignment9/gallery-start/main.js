@@ -6,7 +6,7 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
-const images = ['pic1.1.jpg', `pic2.1.jpg`, `pic3.1.jpg`, `pic4.1.jpg`, `pic5.1.jpg`];
+const images = ['pic1.1.JPG', `pic2.1.jpg`, `pic3.1.jpg`, `pic4.1.jpg`, `pic5.1.jpg`];
 
 /* Declaring the alternative text for each image file */
 
@@ -17,9 +17,6 @@ const alts = {
   'pic4.jpg' : 'Section of wall from a pharoah\'s tomb',
   'pic5.jpg' : 'Large moth on a leaf'
 }
-
-
-
 
 
 
