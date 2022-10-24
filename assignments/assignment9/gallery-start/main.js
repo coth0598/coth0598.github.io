@@ -11,11 +11,11 @@ const images = ['pic1.1.JPG', `pic2.1.jpg`, `pic3.1.jpg`, `pic4.1.jpg`, `pic5.1.
 /* Declaring the alternative text for each image file */
 
 const alts = {
-  'pic1.jpg' : 'Closeup of a human eye',
-  'pic2.jpg' : 'Rock that looks like a wave',
-  'pic3.jpg' : 'Purple and white pansies',
-  'pic4.jpg' : 'Section of wall from a pharoah\'s tomb',
-  'pic5.jpg' : 'Large moth on a leaf'
+  'pic1.jpg' : 'Gphi family',
+  'pic2.jpg' : 'Fourth of July',
+  'pic3.jpg' : 'Bid day',
+  'pic4.jpg' : 'Hike with friend',
+  'pic5.jpg' : 'Colleen and dog'
 }
 
 
