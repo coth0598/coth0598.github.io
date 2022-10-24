@@ -1,12 +1,18 @@
 h1 {
   font-family: "Lucida Console", "Courier New", monospace;
   text-align: center;
+  color: hotpink;
 }
 
 body {
   width: 640px;
   margin: 0 auto;
   background-color: light pink;
+}
+html {
+
+  background-color: light pink;
+
 }
 
 .full-img {
