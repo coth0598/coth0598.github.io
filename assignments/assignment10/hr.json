@@ -1,0 +1,34 @@
+{
+    "employees":  [
+
+        {
+            "firstName": "Sam",
+            "department": "Tech",
+            "designation": "Manager",
+            "salary": "40000",
+            "raiseEleigible": "true"
+        
+        },
+
+        {
+            "firstName": "Mary",
+            "department": "Finance",
+            "designation": "Trainee",
+            "salary": "18500",
+            "raiseEleigible": "true"
+        
+        },
+
+        {
+            "firstName": "Bill",
+            "department": "HR",
+            "designation": "Executive",
+            "salary": "21200",
+            "raiseEleigible": "false"
+        
+        }
+    ]
+
+
+
+}
