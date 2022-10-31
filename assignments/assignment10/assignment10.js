@@ -1,3 +1,4 @@
+//problems #1, 2, 3
 let json = {
     "companyName": "Tech Stars",
     "website": "www.techstars.site",
@@ -7,49 +8,68 @@ let json = {
         "department": "tech",
         "designation": "manager",
         "salary": 40000,
-        "raise eligible": true
+        "raise": true,
+        "wfh": true
       },
       {
         "firstName": "Mary",
         "department": "finance",
         "designation": "trainee",
         "salary": 18500,
-        "raise eligible": true
+        "raise": true,
+        "wfh": false
       },
       {
         "firstName": "Bill",
         "department": "HR",
         "designation": "executive",
         "salary": 21200,
-        "raise eligible": false
+        "raise": false,
+        "wfh": false
       }
     ]
   };
 
-  console.log(json); //print initial JSON for #1 and #2 to console
+  console.log(json); 
 
   const newemployee = {
     "firstName": "Anna",
     "department": "tech",
     "designation": "executive",
     "salary": 25600,
-    "raise eligible": false
+    "raise": false,
+    "wfh": true
   };
 
   json["employees"].push(newemployee);  
 
-  console.log(json); //print updated JSON to console for #3
+  console.log(json);
   
-  for (let i = 0; i < 4; i++) { //this iterates through employee salaries, how can you use this to find the total salary for #4?
+  total = 0;
+  for (let i = 0; i < 4; i++) { 
     console.log(json["employees"][i].salary);
+    total = total + json["employees"][i].salary;
   }
-
-//problem 2
-
-//problem 3
 
 //problem 4
 
+console.log("total: " + total);
+
 //problem 5
 
+for (let i = 0; i < 4; i++) { 
+    if (json["employees"][i].raise === true){
+
+        raiseAmt = json["employees"][i].salary * .1;
+        json["employees"][i].raise = json["employees"][i].salary + raiseAmt;
+        console.log(json["employees"][i].firstName + ": " + json["employees"][i].raise);
+
+    }
+  }
+
 //problem 6
+
+for (let i = 0; i < 4; i++) { 
+    console.log(json["employees"][i].firstName + ": "  + json["employees"][i].wfh);
+
+  }
