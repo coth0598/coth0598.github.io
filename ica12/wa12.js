@@ -2,10 +2,9 @@
 const higherbutton = document.querySelector('.higherbutton').addEventListener('click', setMin);
 const lowerbutton = document.querySelector('.lowerbutton').addEventListener('click', setMax);
 const submitbutton = document.querySelector('.submitbutton').addEventListener('click', submit);
-const phoneNumber = getRandInteger(0,9999999999)
 
 let min = 0;
-let max = 9999999;
+let max = 9999999999;
 
 let output = document.querySelector('.output');
 output.textContent = getRandInteger(min, max);
@@ -14,7 +13,8 @@ output.textContent = getRandInteger(min, max);
 function setMin(){
 
     min = output.textContent;
-    console.log(min);
+    console.log("new min = " + min);
+    console.log("max = " + max);
 
     output.textContent = getRandInteger(min, max);
 
@@ -23,7 +23,8 @@ function setMin(){
 function setMax(){
 
     max = output.textContent;
-    console.log(max);
+    console.log("new max = " + max);
+    console.log("min= " + min);
 
 
     output.textContent = getRandInteger(min, max);
@@ -31,7 +32,9 @@ function setMax(){
 }
 
 function getRandInteger(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) ) + min;
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min);
   }
 
 function submit(){
