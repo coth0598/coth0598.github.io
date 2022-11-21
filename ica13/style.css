@@ -3,6 +3,16 @@ body {
     display: flex;
     justify-content: center;
     }
+    .buttonSet {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      button {
+        height: 36px;
+        margin-top: 20px;
+      } 
+
   
   #alice-container {
     width: 90vh;
