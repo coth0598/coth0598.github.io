@@ -1,5 +1,5 @@
 body {
-    background: #6c373f;
+    background: #e79ed6;
     display: flex;
     justify-content: center;
     }
@@ -12,7 +12,6 @@ body {
         height: 36px;
         margin-top: 20px;
       } 
-
   
   #alice-container {
     width: 90vh;
