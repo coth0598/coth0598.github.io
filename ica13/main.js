@@ -13,6 +13,8 @@ const aliceTumbling = [
   const alice2 = document.querySelector("#alice2");
   const alice3 = document.querySelector("#alice3");
 
+  alice1.animate(aliceTumbling, aliceTiming);
+
   const buttonThen = document.querySelector('.buttonThen');
   const buttonCallBack = document.querySelector('.buttonCallBack');
   const buttonPromise = document.querySelector('.buttonPromise');
@@ -38,7 +40,6 @@ const aliceTumbling = [
     }, interval);
   };
 
-// .then() hell version ---------------------------------------------
 function tumbleAliceThen() {
   const showAnimateObject = alice1.animate(aliceTumbling, aliceTiming);
   const promise1 = Promise.resolve(showAnimateObject.finished);
@@ -51,14 +52,9 @@ function tumbleAliceThen() {
           const showAnimateObject3 = alice3.animate(aliceTumbling, aliceTiming);
         });
     });
-
-  
     
 };
 
-  
-
-// promise version ----------------------------------------------------
 
 function tumbleAliceProm() {
   
@@ -78,8 +74,6 @@ function tumbleAliceProm() {
 
 };
 
-// async version -----------------------------------------------------
-
 async function tumbleAliceAsync() {
   
   
@@ -91,7 +85,6 @@ async function tumbleAliceAsync() {
    
 };
 
-// button Set ----------------------------------------------------------
 buttonThen.addEventListener('click', tumbleAliceThen);
 buttonCallBack.addEventListener('click', tumbleAlice);
 buttonPromise.addEventListener('click', tumbleAliceProm);
