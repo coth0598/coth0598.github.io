@@ -27,8 +27,12 @@
 }
 
 p{
-  font-size: 25px;
+  font-size: 20px;
 }
+html{
+  background-color: #fcf5fb;
+}
+
 
 .body {
     display: flex;
@@ -36,7 +40,7 @@ p{
     align-items: center;
     margin-top: 30px;
     font-family: "Cambria";
-    background-color: #faedf8;
+    
 }
 
 .textbox{
