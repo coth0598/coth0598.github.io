@@ -33,7 +33,14 @@ p{
 html{
   background-color: #fcf5fb;
 }
-
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: "Cambria";
+  
+}
 
 .body {
     display: flex;
