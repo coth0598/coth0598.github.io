@@ -25,6 +25,9 @@
     margin-top: -80px;
 
 }
+p{
+  font-size: medium;
+}
 
 .body {
     display: flex;
